@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPBOMI – Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container flex between center">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo EPBOMI" /></a>
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À&nbsp;propos</a></li>
+                    <li><a href="pastor.html">Pasteur</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                    <li><a href="ministries.html">Ministères</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page header -->
+    <section class="page-header" style="background-image:url('images/bible.png');">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Contactez‑nous</h1>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container section">
+        <p>Que vous souhaitiez en savoir plus sur l’Église, participer à nos cultes ou rejoindre un groupe cellulaire, nous serons ravis d’entrer en contact avec vous. Utilisez le formulaire ci‑dessous ou contactez‑nous par téléphone ou par email.</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Nos coordonnées</h3>
+                <p><strong>Adresse :</strong> Abidjan, Côte d’Ivoire</p>
+                <p><strong>Téléphone :</strong> +225 00 00 00 00</p>
+                <p><strong>Email :</strong> contact@epbomi.org</p>
+                <p>Suivez‑nous également sur les réseaux sociaux pour rester informés de nos actualités et événements.</p>
+            </div>
+            <div class="contact-form">
+                <h3>Envoyer un message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse email</label>
+                        <input type="email" id="email" name="email" placeholder="Votre email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" disabled>Envoyer</button>
+                    <p style="font-size:0.85rem; margin-top:0.5rem;">*Ce formulaire est illustratif et n’envoie pas de données.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footnotes -->
+    <section class="footnotes container">
+        <h3>Sources</h3>
+        <ol>
+            <!-- Footnote link does not point to a remote tether ID on GitHub Pages. -->
+            <li><a href="#">EPBOMI Canada : Coordonnées et horaires (utilisées à titre indicatif)</a></li>
+        </ol>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Coordonnées</h4>
+                <p>Abidjan, Côte d’Ivoire</p>
+                <p>Email : contact@epbomi.org</p>
+                <p>Téléphone : +225 00 00 00 00</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="about.html">Notre histoire</a></li>
+                    <li><a href="pastor.html">Le pasteur</a></li>
+                    <li><a href="ministries.html">Les ministères</a></li>
+                    <li><a href="news.html">Actualités</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez‑nous</h4>
+                <p>Restez connectés via nos réseaux sociaux.</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 EPBOMI. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
